@@ -41,20 +41,20 @@ def timeCalculator(time):
             demo3 = (f"{hour}hours,{minutes}minutes,{seconds}seconds")
             return demo3
 
-def batterycommand():
+"""def batterycommand():
     battery = psutil.sensors_battery()
     demo = timeCalculator(battery.secsleft)
     speak(f"Battery charging {battery.percent}")
-    speak(f"battery work total{demo} ")
+    speak(f"battery work total{demo} ")"""
 
 
-"""def main():
+def main():
     #Battery()
     while True:
         battery()
         m = 15*30
         time.sleep(m)
-    batterycommand()
+    #batterycommand()
 
 if __name__ == "__main__":
     main()"""
